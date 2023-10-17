@@ -30,3 +30,8 @@ li {
 footer {
     background-color: black;
 }
+.footer-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
