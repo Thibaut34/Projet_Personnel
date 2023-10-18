@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .logo {
     display: flex;
     background-color: green;
@@ -34,4 +37,15 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.download_button {
+    position:relative;
+    left: 700px;
+    height: 80px;
+    border-radius: 5%;
+    background-color: blue;
+}
+.link_button{
+    color: white;
+    font-weight: bold;
 }

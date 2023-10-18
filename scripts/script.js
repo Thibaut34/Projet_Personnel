@@ -1,5 +1,6 @@
-let listLangage = document.querySelector(".list-langages")
+let listLangage = document.querySelector(".list-langages");
 let listFooter = document.querySelector(".footer-elements");
+let cvButton = document.querySelector(".download_button");
 
 listFooter.addEventListener("mouseenter",
 function (event) {
@@ -29,3 +30,7 @@ function (event) {
     }, 800);
 })
 
+cvButton.addEventListener('click',
+function onClick(event) {
+    event.target.style.backgroundColor = 'orange';
+})
