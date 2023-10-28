@@ -1,3 +1,2 @@
 # Projet_Personnel
-première version du projet poussée
-ajout du JavaScript
+Nouvelles pages à venir, ajouts de paragraphes
