@@ -1,6 +1,7 @@
 let listLangage = document.querySelector(".list-langages");
 let listFooter = document.querySelector(".footer-elements");
 let cvButton = document.querySelector(".download_button");
+let listTool = document.querySelector(".list-tools");
 
 listFooter.addEventListener("mouseenter",
 function (event) {
@@ -33,4 +34,18 @@ function (event) {
 cvButton.addEventListener('click',
 function onClick(event) {
     event.target.style.backgroundColor = 'orange';
+})
+
+listTool.addEventListener("mouseenter",
+function (event) {
+    event.target.style.opacity = 1;
+})
+
+listTool.addEventListener("mouseover",
+function (event) {
+    event.target.style.opacity = 0.3;
+
+    setTimeout(function() {
+        event.target.style.opacity = 1;
+    }, 800);
 })
